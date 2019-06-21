@@ -4,7 +4,10 @@
 This repo contains arduino code for the two programs used to calibrate the OSSCAL internal RC calibration variable.
 
 
-It functions between the arduino and an arduino compatible chip that is functioning without an external clock. The internal clock of an uncalibrated chip is within 10% of the advertised clock speed. By modifying the OSSCAL, that variance can drop to below 1%, allowing for serial communications to occur.
+The internal clock of an uncalibrated chip is within 10% of the advertised clock speed. By correctly tuning the OSSCAL, that variance can drop to below 1%, allowing for serial communications to occur.
+
+
+This software is designed to automatically poll the chip and extract the required OSSCAL calibration value for optimal performance.
 
 
 To utilise the software, upload the AtTiny program to the chip, and the AutoCalibrate program to the arduino. (Further instructions are within the files themselves.)

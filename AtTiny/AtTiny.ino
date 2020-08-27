@@ -4,7 +4,7 @@
 *
 */
 
-byte osccal_val = 0; //OSCCAL inicial start
+byte osccal_val = 0; //OSCCAL initial start
 byte remote_dec = 3; //remote arduino tells to decrement
 byte remote_inc = 4; //remote arduino tells to increment
 int outPin = 6;
